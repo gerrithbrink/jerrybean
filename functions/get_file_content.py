@@ -26,5 +26,5 @@ def get_file_content(working_directory, file_path):
         return content
 
     except Exception as e:
-        return f"Error: {e}"
+        return f"Error - The get_file_content function returned the error: {e}"
     
